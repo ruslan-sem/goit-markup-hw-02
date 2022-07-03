@@ -156,7 +156,6 @@ body {
   color: var(--dark-txt-cl);
 }
 .portfolio-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
 }
