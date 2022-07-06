@@ -19,12 +19,10 @@
 
 body {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
-  background-color: var(--light-bg-cl);
 }
 
 /* reset styles */
@@ -58,7 +56,6 @@ body {
 /* header */
 .header {
   font-weight: 500;
-  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
@@ -88,6 +85,7 @@ body {
 }
 .hero-btn {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -117,11 +115,11 @@ body {
 }
 .command {
   background-color: var(--command-bg-cl);
+  font-size: 16px;
+  line-height: calc(19 / 16);
 }
 .command-header {
   font-weight: 500;
-  font-size: 16px;
-  line-height: calc(19 / 16);
   color: var(--dark-txt-cl);
 }
 
@@ -136,6 +134,7 @@ body {
 /* portfolio */
 .filter-btn {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
